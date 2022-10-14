@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+
+.Unit {
+    min-width: 400px;
+    max-width: 890px;
+    margin: 20px auto;
+    background-color: #0e153a;
+    border-radius: 15px;
+}
+
+.Headboard {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.numero, .titulo {
+    display: inline-block;
+    font-family: 'Silkscreen', cursive;
+    margin: 10px 20px;
+    
+}
+
+.titulo {
+    font-size: 40px;
+    color: #e2f3f5;
+}
+
+.numero {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #3d5af1;
+    color: #e2f3f5;
+}
+
+.Sections {
+    margin: 0 20px;
+    color: #22d1ee;
+}
+
+strong {
+    margin: 0 15px 0 0;
+    color: white;
+}
+
+.enunciado {
+    display: block;
+    font-family: 'Silkscreen', cursive;
+    
+}
+
+.question {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+    margin: 0 0 10px 0;
+    color: #75FBE6;
+    /* box-shadow: 0 0 20px 0 #22d1ee; */
+    border-radius: 15px;
+    padding: 3px;
+    display: inline;
+}
+
+.answer {
+    margin-top: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.tune-in {
+    display: block;
+    font-family: 'Silkscreen', cursive;
+    margin: 0 20px;
+    font-size: 35px;
+    color: #22d1ee
+}
